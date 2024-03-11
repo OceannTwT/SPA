@@ -4,37 +4,40 @@ This is the official repository of the paper: SPA: Towards A Computational Frien
 
 ![Framework of SPA.](SPA.png)
 
-## How to Use
+## How to use
 
-- Prepare well for your dataset, adjust it to the form:
-
-```bash
-{"instruction":... ,"input": ... , "output": ...}
-```
-
-- clone the repo
+- Thoroughly prepare your dataset, and adjust it to the prescribed format:
 
 ```bash
-git clone git@github.com:OceannTwT/ra-isf.git
+{
+"instruction": ...,
+"input": ...,
+"output": ...,
+}
 ```
 
-- replace the code on LlamaForCausalLM with model/modeling_SPA.py
+- Clone this repo.
 
-- add your dataset on SPA/data/dataset_info.json
+```bash
+git clone git@github.com:OceannTwT/SPA.git
+```
 
-- tune and get the SPA model!
+- Replace the code on `LlamaForCausalLM` with `model/modeling_SPA.py`.
 
+- Add your dataset in `data/dataset_info.json`.
+
+- Tune and get the SPA model!
 
 ```bash
 bash train.sh
 ```
 
-- inference the model by running llama_SPA_predict.py, remember change the dir on your additional parameters.
+- Execute the model inference by running the `llama_SPA_predict.py` script, ensuring to modify the directory in your additional parameters if necessary.
 
-## What could it do?
+## What can it do?
 
-- This repository is served for on-devices personalized LLMs, it could contribute to fast and reliable on-devices LLMs. 
+- This repository is dedicated to on-device personalized Language Models (LLMs), with the potential to significantly enhance the speed and reliability of on-device LLMs.
 
 ## Acknowledgement
 
-- We thank for the contributions of all co-authors and siri-china teams in this work. 
+- We express our gratitude for the valuable contributions made by all co-authors and the dedicated efforts of the Siri-China teams involved in this project.
