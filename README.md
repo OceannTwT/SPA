@@ -1,4 +1,11 @@
-# SPA(Side Plugin Adaption)
+# SPA: Towards A Computational Friendly Cloud-Base and On-Devices Collaboration Seq2seq Personalized Generation
+
+<p align="center">
+<img src='https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg'></a>
+<img src='https://img.shields.io/badge/python-3.9+-blue.svg'>
+<img src='https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg'>
+</p>
+
 
 This is the official repository of the paper: [SPA: Towards A Computational Friendly Cloud-Base and On-Devices Collaboration Seq2seq Personalized Generation](https://arxiv.org/abs/2403.07088).
 
@@ -42,6 +49,10 @@ bash train.sh
 ## Acknowledgement
 
 - We express our gratitude for the valuable contributions made by all co-authors and the dedicated efforts of the Siri-China teams involved in this project.
+
+## 🛠️Update logs
+
+[24/08/20] 🔥 We are happy to announce that SPA has been accepted to PRICAI 2024 main conference(oral)! 
 
 ## Citation
 
